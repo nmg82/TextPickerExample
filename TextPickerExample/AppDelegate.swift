@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  TextPickerTest
-//
-//  Created by Nathan Gladson on 3/16/15.
-//  Copyright (c) 2015 Example. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

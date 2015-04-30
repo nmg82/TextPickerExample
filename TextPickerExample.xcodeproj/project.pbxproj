@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E886B671AF2E1EB0012D33F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E886B661AF2E1EB0012D33F /* Default-568h@2x.png */; };
 		1EF1BB8A1AB726DF0035819A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1BB891AB726DF0035819A /* AppDelegate.swift */; };
 		1EF1BB8C1AB726DF0035819A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1BB8B1AB726DF0035819A /* ViewController.swift */; };
 		1EF1BB8F1AB726DF0035819A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF1BB8D1AB726DF0035819A /* Main.storyboard */; };
 		1EF1BB911AB726DF0035819A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF1BB901AB726DF0035819A /* Images.xcassets */; };
 		1EF1BB941AB726DF0035819A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EF1BB921AB726DF0035819A /* LaunchScreen.xib */; };
-		1EF1BBA01AB726DF0035819A /* TextPickerTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1BB9F1AB726DF0035819A /* TextPickerTestTests.swift */; };
+		1EF1BBA01AB726DF0035819A /* TextPickerExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF1BB9F1AB726DF0035819A /* TextPickerExampleTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E886B661AF2E1EB0012D33F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1EF1BB841AB726DF0035819A /* TextPickerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextPickerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF1BB881AB726DF0035819A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EF1BB891AB726DF0035819A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +37,7 @@
 		1EF1BB931AB726DF0035819A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1EF1BB991AB726DF0035819A /* TextPickerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextPickerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF1BB9E1AB726DF0035819A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1EF1BB9F1AB726DF0035819A /* TextPickerTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPickerTestTests.swift; sourceTree = "<group>"; };
+		1EF1BB9F1AB726DF0035819A /* TextPickerExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPickerExampleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +61,9 @@
 		1EF1BB7B1AB726DF0035819A = {
 			isa = PBXGroup;
 			children = (
-				1EF1BB861AB726DF0035819A /* TextPickerTest */,
-				1EF1BB9C1AB726DF0035819A /* TextPickerTestTests */,
+				1E886B661AF2E1EB0012D33F /* Default-568h@2x.png */,
+				1EF1BB861AB726DF0035819A /* TextPickerExample */,
+				1EF1BB9C1AB726DF0035819A /* TextPickerExampleTests */,
 				1EF1BB851AB726DF0035819A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,7 +77,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1EF1BB861AB726DF0035819A /* TextPickerTest */ = {
+		1EF1BB861AB726DF0035819A /* TextPickerExample */ = {
 			isa = PBXGroup;
 			children = (
 				1EF1BB891AB726DF0035819A /* AppDelegate.swift */,
@@ -84,7 +87,7 @@
 				1EF1BB921AB726DF0035819A /* LaunchScreen.xib */,
 				1EF1BB871AB726DF0035819A /* Supporting Files */,
 			);
-			path = TextPickerTest;
+			path = TextPickerExample;
 			sourceTree = "<group>";
 		};
 		1EF1BB871AB726DF0035819A /* Supporting Files */ = {
@@ -95,13 +98,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1EF1BB9C1AB726DF0035819A /* TextPickerTestTests */ = {
+		1EF1BB9C1AB726DF0035819A /* TextPickerExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				1EF1BB9F1AB726DF0035819A /* TextPickerTestTests.swift */,
+				1EF1BB9F1AB726DF0035819A /* TextPickerExampleTests.swift */,
 				1EF1BB9D1AB726DF0035819A /* Supporting Files */,
 			);
-			path = TextPickerTestTests;
+			path = TextPickerExampleTests;
 			sourceTree = "<group>";
 		};
 		1EF1BB9D1AB726DF0035819A /* Supporting Files */ = {
@@ -115,9 +118,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1EF1BB831AB726DF0035819A /* TextPickerTest */ = {
+		1EF1BB831AB726DF0035819A /* TextPickerExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1EF1BBA31AB726DF0035819A /* Build configuration list for PBXNativeTarget "TextPickerTest" */;
+			buildConfigurationList = 1EF1BBA31AB726DF0035819A /* Build configuration list for PBXNativeTarget "TextPickerExample" */;
 			buildPhases = (
 				1EF1BB801AB726DF0035819A /* Sources */,
 				1EF1BB811AB726DF0035819A /* Frameworks */,
@@ -127,14 +130,14 @@
 			);
 			dependencies = (
 			);
-			name = TextPickerTest;
+			name = TextPickerExample;
 			productName = TextPickerTest;
 			productReference = 1EF1BB841AB726DF0035819A /* TextPickerTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1EF1BB981AB726DF0035819A /* TextPickerTestTests */ = {
+		1EF1BB981AB726DF0035819A /* TextPickerExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1EF1BBA61AB726DF0035819A /* Build configuration list for PBXNativeTarget "TextPickerTestTests" */;
+			buildConfigurationList = 1EF1BBA61AB726DF0035819A /* Build configuration list for PBXNativeTarget "TextPickerExampleTests" */;
 			buildPhases = (
 				1EF1BB951AB726DF0035819A /* Sources */,
 				1EF1BB961AB726DF0035819A /* Frameworks */,
@@ -145,7 +148,7 @@
 			dependencies = (
 				1EF1BB9B1AB726DF0035819A /* PBXTargetDependency */,
 			);
-			name = TextPickerTestTests;
+			name = TextPickerExampleTests;
 			productName = TextPickerTestTests;
 			productReference = 1EF1BB991AB726DF0035819A /* TextPickerTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -168,7 +171,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1EF1BB7F1AB726DF0035819A /* Build configuration list for PBXProject "TextPickerTest" */;
+			buildConfigurationList = 1EF1BB7F1AB726DF0035819A /* Build configuration list for PBXProject "TextPickerExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +184,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1EF1BB831AB726DF0035819A /* TextPickerTest */,
-				1EF1BB981AB726DF0035819A /* TextPickerTestTests */,
+				1EF1BB831AB726DF0035819A /* TextPickerExample */,
+				1EF1BB981AB726DF0035819A /* TextPickerExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EF1BB8F1AB726DF0035819A /* Main.storyboard in Resources */,
+				1E886B671AF2E1EB0012D33F /* Default-568h@2x.png in Resources */,
 				1EF1BB941AB726DF0035819A /* LaunchScreen.xib in Resources */,
 				1EF1BB911AB726DF0035819A /* Images.xcassets in Resources */,
 			);
@@ -221,7 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EF1BBA01AB726DF0035819A /* TextPickerTestTests.swift in Sources */,
+				1EF1BBA01AB726DF0035819A /* TextPickerExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +234,7 @@
 /* Begin PBXTargetDependency section */
 		1EF1BB9B1AB726DF0035819A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1EF1BB831AB726DF0035819A /* TextPickerTest */;
+			target = 1EF1BB831AB726DF0035819A /* TextPickerExample */;
 			targetProxy = 1EF1BB9A1AB726DF0035819A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -289,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -326,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -338,7 +342,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TextPickerTest/Info.plist;
+				INFOPLIST_FILE = TextPickerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -348,7 +353,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TextPickerTest/Info.plist;
+				INFOPLIST_FILE = TextPickerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -366,10 +372,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = TextPickerTestTests/Info.plist;
+				INFOPLIST_FILE = TextPickerExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextPickerTest.app/TextPickerTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextPickerExample.app/TextPickerExample";
 			};
 			name = Debug;
 		};
@@ -381,17 +387,17 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = TextPickerTestTests/Info.plist;
+				INFOPLIST_FILE = TextPickerExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextPickerTest.app/TextPickerTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextPickerExample.app/TextPickerExample";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1EF1BB7F1AB726DF0035819A /* Build configuration list for PBXProject "TextPickerTest" */ = {
+		1EF1BB7F1AB726DF0035819A /* Build configuration list for PBXProject "TextPickerExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1EF1BBA11AB726DF0035819A /* Debug */,
@@ -400,21 +406,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1EF1BBA31AB726DF0035819A /* Build configuration list for PBXNativeTarget "TextPickerTest" */ = {
+		1EF1BBA31AB726DF0035819A /* Build configuration list for PBXNativeTarget "TextPickerExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1EF1BBA41AB726DF0035819A /* Debug */,
 				1EF1BBA51AB726DF0035819A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1EF1BBA61AB726DF0035819A /* Build configuration list for PBXNativeTarget "TextPickerTestTests" */ = {
+		1EF1BBA61AB726DF0035819A /* Build configuration list for PBXNativeTarget "TextPickerExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1EF1BBA71AB726DF0035819A /* Debug */,
 				1EF1BBA81AB726DF0035819A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
